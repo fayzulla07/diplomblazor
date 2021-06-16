@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Меню</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100vh;
+        font-family: 'Courier New', Courier, monospace;
+        background-image: url(https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: rgba(0,0,0,.4);
+    }
+
+    .menu-box {
+        max-width: 300px;
+        width: 100%;
+        min-height: 400px;
+        border: 1px solid #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .menu-box__item {
+        color: #fff;
+        font-size: 18px;
+    }
+    a{
+        color: white;font-size: 22px;
+        
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu-box">
+            <div class="menu-box__item"><a href="Game1">Жад ойыны</a></div>
+            <div class="menu-box__item"><a href="Game2">Көбейту кестесі</a></div>
+            <div class="menu-box__item"><a href="Game3">Таңбаны дурыс кой</a></div>
+        </div>
+    </div>
+</body>
+</html>

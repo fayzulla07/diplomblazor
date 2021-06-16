@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/diplom/game1.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Жад ойыны</h1>
+            <!-- <h2>FallOut Edition</h2> -->
+        </header>
+    
+        <section class="score-panel">
+            <h3>Ұпайлар тақтасы</h3>
+            <ul id="star-rating" class="star-rating">
+                <li class="star"><i class="fa fa-star"></i></li>
+                <li class="star"><i class="fa fa-star"></i></li>
+                <li class="star"><i class="fa fa-star"></i></li>
+            </ul>
+            <span class="moves-counter">0</span> табылды
+            <div class="timer-container">
+                <span class="timer"><i class="fa fa-hourglass-start"></i> Таймер: 00:00</span>
+            </div>
+            <div class="reset">
+                <button class="btn reset-btn">Қалпына келтіру <i class="fa fa-repeat"></i></button>
+            </div>
+        </section>
+    
+        <!-- Modal -->
+        <section class="win-game-modal">
+            <div id="modal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Құттықтаймыз!</h2>
+                    <p>Сіз ойында жеңіп, барлық 8 жұп карталарды таптыңыз.</p>
+                    <img class="modal-img" src="https://github.com/FoxyStoat/memory-game/blob/master/assets/img/Vault-Boy-Thumb-Up.jpg?raw=true" alt="Vault boy giving the thumbs up from the game fall out">
+                    <button class="btn play-again-btn">Қайта ойнау?</button>
+                </div>
+            </div>
+        </section>
+    
+        <ul class="deck"></ul>
+    </div>
+    
+   
+    
+      <script src="assets/js/custom.js"></script>
+
+
+    <script src="/diplom/game1.js"></script>
+</body>
+</html>

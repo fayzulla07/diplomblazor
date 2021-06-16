@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/diplom/game2.css">
+</head>
+<body>
+    <div id="container">
+        <div id="score">
+            Ұпайлар: <span id="scoreValue">0</span>
+        </div>
+        <div id="correct">
+            Дұрыс!
+        </div>
+        <div id="wrong">
+            Қайтадан байқап көріңіз
+        </div>
+        <div id="question">
+            Қош келдіңіз!
+        </div>
+        <div id="instruction">
+            Бастау үшін бастау батырмасын басыңыз.
+        </div>
+        <div id="choices">
+            <!-- used div#box$.box*4 and emmet -->
+            <!-- remove onclicks and use js docuement.getElement instead -->
+            <div id="box1" class="box" ></div>
+            <div id="box2" class="box" ></div>
+            <div id="box3" class="box" ></div>
+            <div id="box4" class="box" ></div>
+        </div>
+        <div id="startReset" onclick="startReset()">
+            Ойынды бастау
+        </div>
+        <div id="timeRemaining">
+            Қалған уақыт: <span id="timeRemainingValue">60</span>
+        </div>
+        <div id="gameOver">
+            <p>Ойын бітті!</p>
+            <p>Сіздің ұпайыңыз <span id="scoreNumber">0</span></p>
+        </div>
+    </div>
+ 
+
+    <script src="/diplom/game2.js"></script>
+</body>
+</html>
